@@ -69,9 +69,9 @@ This clamp is a continuation of the single piece jaw design in TL1. This clamp i
 
 ## Validation Experiments
 
-[**Ball Screw Actuation Experiment**](experiments\190910_Screw_And_Motor_Test) - After the failure of the prototype clamp CL1 with integrated linear actuator, the decision is to construct the linear actuation from ball screw and motor from parts. This test validate the selection of ball screw and motor by testing the pull force developed.
+[**Ball Screw Actuation Experiment**](./experiments/190910_Screw_And_Motor_Test) - After the failure of the prototype clamp CL1 with integrated linear actuator, the decision is to construct the linear actuation from ball screw and motor from parts. This test validate the selection of ball screw and motor by testing the pull force developed.
 
-[**Linear Guide and Clamp Jaw Experiment**](experiments\191111_Linear_Guide_Jaw_Test) - Learning from the experience of the prototype clamp CL1, the circular linear guide combination with linear actuator was insufficient to prevent small rotational movements. This experiment was devised to assess replacement with a rolling-ball linear guide and the corresponding clamp jaw design. The conclusion of this experiment leads to the development of the single-piece jaw design for clamp TL1 and CL2
+[**Linear Guide and Clamp Jaw Experiment**](./experiments/191111_Linear_Guide_Jaw_Test) - Learning from the experience of the prototype clamp CL1, the circular linear guide combination with linear actuator was insufficient to prevent small rotational movements. This experiment was devised to assess replacement with a rolling-ball linear guide and the corresponding clamp jaw design. The conclusion of this experiment leads to the development of the single-piece jaw design for clamp TL1 and CL2
 
 
 
