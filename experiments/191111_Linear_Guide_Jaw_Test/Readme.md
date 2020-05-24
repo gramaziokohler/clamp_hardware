@@ -28,7 +28,7 @@ Different limiting current is used in each set, voltage is varied.
 
 ### Result
 
-![plot_torque_current_51](data_collection/test1/data/plot_torque_current_51.jpg)
+![plot_torque_current_51](./data_collection/test1/data/plot_torque_current_51.jpg)
 
 Note that the last data point of the 7A series at 14.4V is actually using the LiPo Battery as power source.
 
@@ -58,7 +58,7 @@ Voltage set beyond the current limit point of the 5A situation: 9V
 
 ### Result
 
-![plot_force_bearing_distance](data_collection/test2/plot_force_bearing_distance.jpg)
+![plot_force_bearing_distance](./data_collection/test2/plot_force_bearing_distance.jpg)
 
 Only one set of data is collected. Due to time consumption in relocating the bearing.
 
@@ -109,9 +109,9 @@ Different limiting current is used in each set, voltage is varied.
 
 Worm gearbox cannot be back driven and the stored tension do not reverse the motor after power is removed.
 
-![plot_torque_current_54](data_collection/test4/data/plot_torque_current_54.jpg)
+![plot_torque_current_54](./data_collection/test4/data/plot_torque_current_54.jpg)
 
-![plot_torque_current_54](data_collection/test4/data/plot_torque_current_72.jpg)
+![plot_torque_current_54](./data_collection/test4/data/plot_torque_current_72.jpg)
 
 It is surprising to see that the **1:54 gearbox perform better** than the 1:72 gearbox in similar voltage current setting. This is probably due to a lower efficiency of the 1:72 gearbox. 
 

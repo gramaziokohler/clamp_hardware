@@ -14,7 +14,7 @@ Linear guide is not included and not tested in this experiment.
 
 ## Test Setup
 
-![test_setup](test_setup/test_setup_01.jpg)
+![test_setup](./test_setup/test_setup_01.jpg)
 
 Test setup with both **loadcell** and **pull scale** (for loadcell calibration) attached to the test jig.
 
@@ -26,17 +26,17 @@ Test setup with both **loadcell** and **pull scale** (for loadcell calibration) 
 
 
 
-![555](test_setup/555.jpg)
+![555](./test_setup/555.jpg)
 
-![555Spec](test_setup/555Spec.jpg)
+![555Spec](./test_setup/555Spec.jpg)
 
-![555Dimension](test_setup/555Dimension.jpg)
+![555Dimension](./test_setup/555Dimension.jpg)
 
-![555Gearing](test_setup/555Gearing.jpg)
+![555Gearing](./test_setup/555Gearing.jpg)
 
 
 
-![555Wiring](test_setup/555Wiring.jpg)
+![555Wiring](./test_setup/555Wiring.jpg)
 
 Two motors gearbox are tested:
 
@@ -55,9 +55,9 @@ Similar product can be found in HiWin:   [RBS-R12-4B1-FSB-200-261-0.05](https://
 
 3D Model found on GrabCAD:  https://grabcad.com/library/sfu1204-500mm-with-bk10-bf10-set-1 
 
-![screw_components](test_setup/screw_components.jpg)
+![screw_components](./test_setup/screw_components.jpg)
 
-![ball_nut](test_setup/ball_nut.jpg)
+![ball_nut](./test_setup/ball_nut.jpg)
 
 
 
@@ -71,21 +71,21 @@ BK10 was used with another end being free end.
 
 Another similar model FK10 can be used too but not tested: [FK10](https://motioncontrolsystems.hiwin.com/item/all-categories/support-units-fk-series/fk10-a)
 
-![support_types](test_setup/support_types.jpg)
+![support_types](./test_setup/support_types.jpg)
 
-![screw_support_spec](test_setup/screw_support_spec.jpg)
+![screw_support_spec](./test_setup/screw_support_spec.jpg)
 
 
 
 ### Shaft Coupler SRJ-25C
 
-![shaft_coupler](test_setup/shaft_coupler.jpg)
+![shaft_coupler](./test_setup/shaft_coupler.jpg)
 
 ### Nut Support DSG12H
 
-![nut_support](test_setup/nut_support.jpg)
+![nut_support](./test_setup/nut_support.jpg)
 
-![nut_support_spec](test_setup/nut_support_spec.jpg)
+![nut_support_spec](./test_setup/nut_support_spec.jpg)
 
 ### Power Supply
 
@@ -105,9 +105,9 @@ The motor is allowed to **run free until it is stalled**, power is then cut to a
 
 ## Results
 
-![plot_torque_current_51](plot_torque_current_51.jpg)
+![plot_torque_current_51](./plot_torque_current_51.jpg)
 
-![plot_torque_current_100](plot_torque_current_100.jpg)
+![plot_torque_current_100](./plot_torque_current_100.jpg)
 
 ## Conclusion
 
