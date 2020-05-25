@@ -73,6 +73,10 @@ This clamp is a continuation of the single piece jaw design in TL1. This clamp i
 
 [**Linear Guide and Clamp Jaw Experiment**](./experiments/191111_Linear_Guide_Jaw_Test) - Learning from the experience of the prototype clamp CL1, the circular linear guide combination with linear actuator was insufficient to prevent small rotational movements. This experiment was devised to assess replacement with a rolling-ball linear guide and the corresponding clamp jaw design. The conclusion of this experiment leads to the development of the single-piece jaw design for clamp TL1 and CL2
 
+[**Joint Press**](./experiments/200100_Joint_Press) - CNC controlled joint pressing machine to measure the tightness of a lap joint. (Device designed but not constructed)
+
+[**Lap Joint Tightness vs Rotational Stiffness Experiment**](./experiments/191113_Joint_Tightness_Stiffness_Study) - Experiment to study the rotational stiffness of lap joints in relation to the tightness of the joint. Tightness is measured by the amount of assembly force used to assemble the joint. (Experiment planned but not performed due to budget constraint)
+
 
 
 Credits
