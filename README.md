@@ -21,14 +21,16 @@ The mechanical design of the clamps is to be able to achieve the following funct
 
 - Deliver high assembly force to assemble tight-fitting timber joints
 - The clamps cannot relocate itself but rely on robotic manipulator (such as a robotic arm) for locomotion.
-- The clamps can be attached to a timber beam and operate remotely.
-- Accommodate different types of timber joints
+- The clamps can be temporarily attached to a timber beam and operate remotely.
+- Different clamp designs accommodate different types of timber joints, some clamp design can accommodate a joint type with various angles.
 
 ## Clamp Design
 
 ### Clamp CL1
 
-**Cross Lap Joint** Clamp for **Planar Orthogonal** joint angle. 
+**Cross Lap Joint** Clamp for **Planar Orthogonal** joint angle. Timber section size 100mm x 100mm.
+
+![CL1_front+back](clamps/CL1/images/CL1_front+back.jpg)
 
 This is the first clamp prototype with off-the-shelf actuator and two jaw design. This proof-of-concept device successfully performed a single joint assembly task. 
 
@@ -39,9 +41,28 @@ This prototype exposed the limitation of off-the-self linear actuators which wer
 - No remote control capability
 - Linear actuator gear box housing failed during stress test
 
-### Clamp TL1
+### Clamp CL2
 
-**Tee Lap Joint** Clamp for **Planar Variable** joint angle.
+**Cross Lap Joint** Clamp for **Planar Orthogonal** joint angle. (similar to CL1)
+
+![render_front+back](clamps/CL2/images/render_front+back.jpg)
+
+This clamp is an improved version from **CL1** with similar design goals and capability. The main modification is the development of a **single piece jaw design** by combining linear guide mount and ball nut mount into a single piece of milled aluminum. This jaw design is the result of two important experiments mentioned in the next section.
+
+Notable improvements:
+
+- Reliable power transfer mechanism
+- Reliable DC Encoder motor
+- Lighter weight than CL1
+- Modular jaw construction
+
+This clamp was designed and materials were prepared but were never assembled for testing. The materials was then used to create TL1 for the Tokyo project. Since the tests performed with TL1 was successful and the 
+
+### Clamp TL1 (tokyo)
+
+**Tee Lap Joint** Clamp for **Planar Variable** joint angle. Timber section size 120mm x 120mm.
+
+![TL1_front+back](clamps/TL1/images/TL1_front+back.jpg)
 
 This clamp is designed specifically for the GKR Tokyo Pavilion project with revised linear actuator design using ball screw and encoder DC motor. It has one clamp jaw that presses on the middle of the lap joint.
 
@@ -57,11 +78,13 @@ Notable mechanical features:
 - Highly reliable worm-geared DC motor with dual channel encoder
 - Small number of custom-piece
 
-### Clamp CL2
+
+
+### Clamp CL3
 
 **Cross Lap Joint** Clamp for **Planar Variable** joint angle. 
 
-This clamp is a continuation of the single piece jaw design in TL1. This clamp is currently in development.
+This clamp is a continuation of the single piece jaw design originated from CL2 and tested in TL1. This clamp is currently in development.
 
 
 
