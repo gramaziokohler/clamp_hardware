@@ -86,7 +86,7 @@ Notable mechanical features:
 
 This clamp is a continuation of the single piece jaw design originated from CL2 and tested in TL1. This clamp is currently in development.
 
-
+Battery Compartment Size: 82(L) x 37(W) x 46(H)
 
 
 
