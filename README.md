@@ -100,7 +100,7 @@ Battery Compartment Size: 82(L) x 37(W) x 46(H)
 
 [**Lap Joint Tightness vs Rotational Stiffness Experiment**](./experiments/191113_Joint_Tightness_Stiffness_Study) - Experiment to study the rotational stiffness of lap joints in relation to the tightness of the joint. Tightness is measured by the amount of assembly force used to assemble the joint. (Experiment planned but not performed due to budget constraint)
 
-
+[**Hollow Screw Tightening Torque Measurement**](./experiments/200903_LucaScrewMeasurement)  - Experiment to study the tightening torque of Luca's hollow screw in wood. This allows gearbox and motor sizing for Clamp SL1 
 
 Credits
 -------------
