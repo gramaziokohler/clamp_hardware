@@ -82,9 +82,15 @@ Notable mechanical features:
 
 ### Clamp CL3
 
-**Cross Lap Joint** Clamp for **Planar Variable** joint angle. 
+**Cross Lap Joint** Clamp for **Planar Variable** joint angle.
 
-This clamp is a continuation of the single piece jaw design originated from CL2 and tested in TL1. This clamp is currently in development.
+ ![render_front+back](clamps/CL3/screen_capture/render_front+back.jpg)
+
+![CL3_Front+Back](clamps/CL3/photo/CL3_Front+Back.jpg)
+
+This clamp is a continuation of the single piece jaw design originated from CL2 and tested in TL1. 
+
+The clamp is used in the construction of Fred's Pavilion where the robotic quick changer is not integrated.
 
 Battery Compartment Size: 82(L) x 37(W) x 46(H)
 
