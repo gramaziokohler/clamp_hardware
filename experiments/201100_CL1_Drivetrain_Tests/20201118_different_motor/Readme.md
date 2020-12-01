@@ -4,14 +4,22 @@
 
 The goal of this test is to determine the suitability of the 775 motor in performing the screwing task in CL1 design.
 
-Two 775 motor with planetary gearbox was tested. The encoder has unknown pulse per motor rotation, this was confusing. The CL1 prototype has a secondary 1:20 worm drive gearbox.
+Two 775 motor are run at 14.4V using 4-cell Li-Po battery, with different planetary gearbox. Motor diameter is 42mm, length is 66.5mm without gearbox or encoder. The encoder has unknown pulse per motor rotation, and planetary gearbox ration is unknown. However combined step/sec is determined experimentally. 
 
-| Gear Box                                | 1:13 (2 stage)      | 1:49 (3 stage)      |
-| --------------------------------------- | ------------------- | ------------------- |
-| Rated torque (Nm)                       | 2                   | 3                   |
-| Rated RPM                               | 150                 | 60                  |
-| Rated current (A)                       | <=6                 | <=3.5               |
-| Steps per secondary gearbox revolution. | 18300 (estimate) ?? | 68000 (estimate) ?? |
+
+
+The CL1 prototype has a secondary 1:20 worm drive gearbox that is tested together.
+
+| Gear Box                                                | 1:13 (2 stage) | 1:49 (3 stage) |
+| ------------------------------------------------------- | -------------- | -------------- |
+| Rated torque (Nm)                                       | 2              | 3              |
+| Rated RPM                                               | 150            | 60             |
+| Rated current (A)                                       | <=6            | <=3.5          |
+| Rated toque (Nm)                                        | 2              | 3              |
+| Steps per planetary gearbox revolution                  | 915            | 2960           |
+| RPM of motor and planetary gearbox at 2000steps/s (rpm) | 131.1          | 40.5           |
+| Steps per secondary (1:20) gearbox revolution.          | 18300          | 59200          |
+| Time for 1 secondary rev at 2000steps/s  (seconds)      | 9.15           | 29.6           |
 
 The screw used in this test is the long screw made by Luca. The threaded part is 50mm long (10 rotation).
 
@@ -135,5 +143,7 @@ The 16mm screw hole is still very strong in final pullout force. However **pull 
 
 The **reaction rotation force** is very high. This may increase the pressure between the lap joint shoulder faces when being rubbed and thus increase friction.
 
-  
+We can potentially run the 1:49 motor at 3000 step/sec (Stage1 : 60.7 rpm / Stage 2: 3 rpm) for screwing operation, and even higher speed for no load movements.  
+
+
 
