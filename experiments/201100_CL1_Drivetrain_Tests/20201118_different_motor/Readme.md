@@ -13,13 +13,13 @@ The CL1 prototype has a secondary 1:20 worm drive gearbox that is tested togethe
 | Gear Box                                                | 1:13 (2 stage) | 1:49 (3 stage) |
 | ------------------------------------------------------- | -------------- | -------------- |
 | Rated torque (Nm)                                       | 2              | 3              |
-| Rated RPM                                               | 150            | 60             |
+| Rated RPM (min<sup>-1</sup>)                            | 150            | 60             |
 | Rated current (A)                                       | <=6            | <=3.5          |
-| Rated toque (Nm)                                        | 2              | 3              |
 | Steps per planetary gearbox revolution                  | 915            | 2960           |
 | RPM of motor and planetary gearbox at 2000steps/s (rpm) | 131.1          | 40.5           |
 | Steps per secondary (1:20) gearbox revolution.          | 18300          | 59200          |
 | Time for 1 secondary rev at 2000steps/s  (seconds)      | 9.15           | 29.6           |
+| RPM after 1:20 drive (min<sup>-1</sup>)                 | 6.55           | 2.02           |
 
 The screw used in this test is the long screw made by Luca. The threaded part is 50mm long (10 rotation).
 
