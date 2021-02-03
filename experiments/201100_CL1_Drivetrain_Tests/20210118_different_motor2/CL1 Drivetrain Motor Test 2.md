@@ -107,14 +107,14 @@ Case 2x is with new screw sample
 | Motor **steps/s** for **2nd stage 3rpm**  | 13/23 | 4460 ok          | 2200 ok    | 3187       | 1385              |
 | Motor **steps/s** for **2nd stage 4rpm**  | 14/24 | 5946 ok          | 2933 ok    | 4250       | 1846              |
 | Motor **steps/s** for **2nd stage 5rpm**  | 15/25 | 7433 ok          | 3666 ok    | 5312       | 2308 ok           |
-| Motor **steps/s** for **2nd stage 6rpm**  | 16    |                  | 4400 ok    | 6375       | 2770 ok           |
+| Motor **steps/s** for **2nd stage 6rpm**  | 16    | fail for sure    | 4400 ok    | 6375       | 2770 ok           |
 | Motor **steps/s** for **2nd stage 8rpm**  | 17    |                  | 5866 stall |            | 3693 ok           |
 | Motor **steps/s** for **2nd stage 10rpm** | 18    |                  |            |            | 4616 ok           |
 | Motor **steps/s** for **2nd stage 12rpm** | 19    |                  |            |            | 5540 stalled      |
 
 
 
-## Case 30 Two Step Hole
+## Case 30 Two Step Hole (10mm + 16mm hole)
 
 Motor **#4** for 2nd stage 10rpm (4616 steps/s)
 
@@ -139,3 +139,16 @@ Sample 8 - 10 turns (249300)
 Sample 9 - 10 turns (249300)
 
 Successful
+
+# Summary
+
+
+
+| Motor                            | HJX42RH71i / 775        | HJX45RM35i                | HJX45RM51i              | HJX50RNA27i                  |
+| -------------------------------- | ----------------------- | ------------------------- | ----------------------- | ---------------------------- |
+| Max RPM @ no Load                | 5                       | 8                         | 6                       | 13.5                         |
+| **Max RPM @ Screw 1, 16mm hole** | **5 (8 min for 200mm)** | **6 (6.6 min for 200mm)** | **5 (8 min for 200mm)** | **10 rpm (4 min for 200mm)** |
+|                                  |                         |                           |                         |                              |
+| Weight (g)                       | 734                     | 717                       | 813                     | 1077                         |
+| Price (CNY / CHF)                | 225  (30.87)            | 260 (35.67)               | 265 (36.35)             | 355 (48.70)                  |
+
