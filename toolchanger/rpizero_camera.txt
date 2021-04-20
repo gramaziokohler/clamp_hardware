@@ -29,3 +29,8 @@ To Start: "sudo systemctl start rtsp-stream.service"
 To Stop: "sudo systemctl stop rtsp-stream.service"
 
 View Status: "sudo systemctl status rtsp-stream.service"
+
+
+raspivid -t 0 -w 640 -h 480 -fps 25 -b 1200000 -p 0,0,640,480 -o - | gst-launch-1.0 -v fdsrc ! h264parse ! rtph264pay config-interval=1 pt=96 ! gdppay ! tcpserversink host=YOUR_IP port=YOUR_PORT
+
+192.168.142.75
