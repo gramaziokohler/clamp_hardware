@@ -39,8 +39,9 @@ Based on this study, length suggestions (mm):
 
 |                  | Joint Thickness | Screw Shoulder + Head Length | Screw Thread Length | Total Length |
 | ---------------- | --------------- | ---------------------------- | ------------------- | ------------ |
-| Planar Joint     | 60 - 70         | 60                           | 50                  | 110          |
-| Non-Planar Joint | 40 - 60         | 40                           | 40                  | 80           |
+| Planar Joint     | 40 - 60         | 40                           | 40                  | 80           |
+| Non-Planar Joint | 60 - 70         | 60                           | 50                  | 110          |
+
 
 Alternatively, both screw can have the same shoulder length (and different thread length to keep overall length as recommended) to simplify manufacturing.
 
