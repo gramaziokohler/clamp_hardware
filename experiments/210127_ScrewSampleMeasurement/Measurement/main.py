@@ -31,7 +31,7 @@ found = False
 LOG_SESSION_FILENAME = ""
 FILE_LOG_SESSION = ""
 for i in range (100):
-    LOG_SESSION_FILENAME = "Screw2_Hole15_%03i.csv" % i
+    LOG_SESSION_FILENAME = "Screw2_Hole15_Overtighten_%03i.csv" % i
     FILE_LOG_SESSION = os.path.join(HERE, LOG_FOLDER_NAME, LOG_SESSION_FILENAME)
     if os.path.isfile(FILE_LOG_SESSION):
         continue
@@ -43,7 +43,7 @@ if found:
     input()
 else:
     print ("Cannot find non-overwritting file name. Process will terminate now.")
-    exit() 
+    exit()
 
 
 LOG_MULTIPLE_RESULT_FILENAME = "results.csv"
@@ -68,12 +68,12 @@ except ImportError:
 
 """ Prints Phidget board info when it is started. """
 def onAttachHandler(self):
-    
+
     ph = self
     try:
-        
+
         print("\nSensor Attached:")
-        
+
         """
         * Get device information and display it.
         """
@@ -87,7 +87,7 @@ def onAttachHandler(self):
         else:
             print("\n\t-> Channel Class: " + channelClassName + "\n\t-> Serial Number: " + str(serialNumber) +
                     "\n\t-> Channel:  " + str(channel) + "\n")
-    
+
         """
         * DataInterval defines the minimum time between VoltageRatioChange events.
         * DataInterval can be set to any value from MinDataInterval to MaxDataInterval.
@@ -101,7 +101,7 @@ def onAttachHandler(self):
         """
         print("\tSetting Voltage Ratio ChangeTrigger to 0.0")
         ph.setVoltageRatioChangeTrigger(0.0)
-        
+
         """
         * You can find the appropriate SensorType for your sensor in its User Guide and the VoltageRatioInput API
         * SensorType will apply the appropriate calculations to the voltage ratio reported by the device
@@ -111,11 +111,11 @@ def onAttachHandler(self):
         if(ph.getChannelSubclass() == ChannelSubclass.PHIDCHSUBCLASS_VOLTAGERATIOINPUT_SENSOR_PORT):
             print("\tSetting VoltageRatio SensorType")
             ph.setSensorType(VoltageRatioSensorType.SENSOR_TYPE_VOLTAGERATIO)
-        
-        # Class variable to be initialized. 
+
+        # Class variable to be initialized.
         self.startTime = time.time()
         self.datacounter = 0
-        
+
     except PhidgetException as e:
         print("\nError in Attach Event:")
         DisplayError(e)
@@ -124,7 +124,7 @@ def onAttachHandler(self):
 
 """ Performs log writing when voltageRatioChange event is raised by Phidget """
 def onVoltageRatioChangeHandler(self, voltageRatio):
-    # Compute timeSinceStart 
+    # Compute timeSinceStart
     timeNow = time.time()
     timeSinceStart = timeNow - self.startTime
     # Compute force based on calibration
@@ -140,7 +140,7 @@ def onVoltageRatioChangeHandler(self, voltageRatio):
     self.file.write(",")
     self.file.write(str(timeSinceStart))
     self.file.write(",")
-    self.file.write(str(voltageRatio))    
+    self.file.write(str(voltageRatio))
     self.file.write(",")
     self.file.write(str(compensatedvalue))
     self.file.write("\n")
@@ -158,7 +158,7 @@ def onVoltageRatioChangeHandler(self, voltageRatio):
         self.maxVoltageRatio = voltageRatio #Run Once
     elif compensatedvalue > self.maxVoltageRatio:
         self.maxVoltageRatio = voltageRatio
-                
+
 
     """
     * Outputs the VoltageRatioInput's most recently reported sensor value.
@@ -187,7 +187,7 @@ ch.file = f
 ch.setDeviceSerialNumber(-1)
 ch.setHubPort(-1)
 ch.setIsHubPortDevice(False)
-ch.setChannel(0)   
+ch.setChannel(0)
 
 
 print("\n--------------------------------------")
@@ -211,7 +211,7 @@ if hasattr(ch, 'minForce'):
 if hasattr(ch, 'maxForce'):
     print("Max Force: " + str(ch.maxForce))
 if hasattr(ch, 'minForce')&hasattr(ch, 'maxForce'):
-    print("Max Difference: " + str(ch.maxForce-ch.minForce))           
+    print("Max Difference: " + str(ch.maxForce-ch.minForce))
 
 # Write out min max data to results file
 with open(FILE_MULTIPLE_RESULT, "a") as rf: # Append
@@ -227,7 +227,7 @@ with open(FILE_MULTIPLE_RESULT, "a") as rf: # Append
     rf.write(',')
     rf.write(str(ch.maxForce - ch.minForce))
     rf.write('\n')
-    
+
 
 if (f is not None):
     print ("Data file saved in: data/" + LOG_SESSION_FILENAME + ".csv")
